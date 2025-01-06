@@ -1,0 +1,336 @@
+
+div,a{
+    text-align: right;
+    text-decoration: none;
+    color: black;  
+}
+a{
+    padding: 0.40cm;
+}
+h1{
+    font-style: italic;    
+    margin-top: 4cm;
+    margin-left: 1cm;
+    color: #f39c12;
+}
+h4{
+    font-style: normal;
+    margin-left: 1cm;
+}
+img{
+    float: right;
+    size: 0cap;
+    margin-top: 0.5px;
+}
+.logo-img {
+width: 60px;
+margin-top: 0cm;
+align-items: start;
+float: left;
+}
+
+
+    /* Vision & Mission Section */
+    .vision-mission-box {
+        padding: 50px;
+        background-color: lightcyan;
+        text-align: center;
+        margin-top: 6.8cm;
+    }
+    .box-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .box {
+        background-color: #fff;
+        padding: 40px;
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 45%;
+        transition: transform 0.3s ease;
+    }
+    .box h2 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .box p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .box:hover {
+        transform: scale(1.05);
+        border-color: #f39c12;
+    }
+
+    /* Services Section Styling */
+    .services-section {
+        padding: 3em 1em;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+    .services-section h2 {
+          font-size: 2.5em;
+        color: #333;
+        margin-bottom: 0.5em;
+    }
+    .services-section p {
+        font-size: 1em;
+        color: #555;
+        margin-bottom: 2em;
+    }
+    .services-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+    .service-card {
+        width: 220px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .service-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .service-card h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin: 0.8em 0;
+    }
+    .service-card p {
+        font-size: 0.95em;
+        color: #666;
+        padding: 0 1em 1.2em;
+    }
+.container {
+width: 90%;
+max-width: 800px;
+margin: auto;
+padding: 20px;
+}
+
+.about-us {
+text-align: center;
+padding: 50px 0;
+}
+
+.about-us h2 {
+font-size: 2em;
+color: #333;
+margin-bottom: 20px;
+text-align: left;
+}
+
+.about-us p {
+font-size: 1.1em;
+color: #555;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.team {
+margin-top: 30px;
+}
+
+.team h3 {
+font-size: 1.5em;
+color: #333;
+margin-bottom: 20px;
+}
+.pets {
+text-align: center;
+padding: 50px 0;
+margin-left: 0cm;
+}
+.pets h2 {
+font-size: 2em;
+color: #333;
+margin-bottom: 30px;
+}
+.pet-cards {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.pet-card {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+width: 280px;
+margin: 20px;
+padding: 15px;
+text-align: center;
+transition: transform 0.3s;
+}
+.pet-card:hover {
+transform: scale(1.05);
+}
+.pet-card img {
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+}
+.pet-card h3 {
+font-size: 1.5em;
+color: #333;
+}
+.pet-card p {
+font-size: 1em;
+color: #555;
+margin: 5px 0;
+}
+/* Products Section Styling */
+.products-section {
+padding: 50px 20px;
+background-color: #fff;
+text-align: center;
+}
+.products-section h2 {
+font-size: 36px;
+color: #333;
+margin-bottom: 30px;
+}
+.scrollable-gallery {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+padding: 10px;
+scroll-snap-type: x mandatory;
+}
+.product-card {
+flex: 0 0 23%; 
+min-width: 200px;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+transition: transform 0.3s;
+scroll-snap-align: start;
+}
+.product-card:hover {
+transform: translateY(-5px);
+}
+.product-card img {
+width: 100%;
+height: 150px; 
+}
+.product-card h3 {
+font-size: 24px;
+margin: 10px 0;
+color: #333;
+}
+.product-card p {
+font-size: 16px;
+color: #555;
+padding: 0 10px 10px;
+}
+.product-card p:last-child {
+font-weight: bold;
+color: #333;
+}
+
+.contact-section {
+padding: 50px 20px;
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section h2 {
+font-size: 36px;
+color: #333;
+margin-bottom: 30px;
+}
+
+/* Contact Details Styling */
+.contact-details {
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+
+.detail-box {
+width: 30%;
+background-color: #fafafa;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.detail-box h3 {
+font-size: 24px;
+color: #333;
+margin-bottom: 10px;
+}
+.detail-box p {
+font-size: 16px;
+color: #555;
+}
+.contact-form {
+margin-bottom: 40px;
+text-align: left;
+padding: 20px;
+background-color: #fafafa;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form h3 {
+font-size: 24px;
+color: #333;
+margin-bottom: 20px;
+}
+.contact-form form {
+display: flex;
+flex-direction: column;
+}
+.contact-form label {
+font-size: 16px;
+color: #333;
+margin-bottom: 5px;
+}
+.contact-form input,.contact-form textarea {
+font-size: 16px;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 5px;
+width: 100%;
+}
+.contact-form button {
+padding: 10px 20px;
+font-size: 18px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+.contact-form button:hover {
+background-color: #555;
+}
+.location-map {
+margin-top: 20px;
+}
+.location-map h3 {
+font-size: 24px;
+color: #333;
+margin-bottom: 10px;
+}
